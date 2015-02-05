@@ -1,0 +1,39 @@
+body {
+	font-family: Arial, Helvetica, Verdana;
+}
+.cards {
+	padding: 5px;
+	display: -webkit-flex;
+	-webkit-justify-content: space-around;
+	-webkit-flex-wrap: wrap;
+}
+	.cards__item {
+		display: inline-block;
+		background-color: #75edff;
+		padding: 5px;
+		height: 200px;
+		margin: 5px;
+	}
+	.cards__item:first-child {
+		background-color: peru;
+	}
+		.cards__item__header {
+			font-size: 1.5rem;
+			margin: 0 0 .1em 0;
+			border-bottom: 1px solid white;
+		}
+
+		.cards__item__date {
+			font-size: .5rem;
+			font-family: courier;
+		}
+		.cards__footer {
+			margin:0;
+			padding:0;
+			list-style-type:none;
+			font-size:.8rem;
+		}
+		.cards__temp::after {
+			content: attr(data-temp);
+			color: yellow;
+		}

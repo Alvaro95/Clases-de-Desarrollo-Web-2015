@@ -1,0 +1,57 @@
+* {
+	color: red;
+}
+
+h1, .h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: maroon;
+	font-size: 24px;
+}
+
+h2, .h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: green;
+	font-size: 16px;
+	font-size: 1rem; /*FallBack*/
+}
+
+.background-pink {
+	background-color: pink;
+}
+.article {
+
+}
+	.article__header {
+		font-family: Arial, Helvetica, sans-serif;
+		color: green;
+	}
+
+	.article__footer {
+
+	}
+
+li[data-RobotOwner="Koji Kabuto"] {
+	background-color: olive;
+	color: white;
+}
+
+li[data-RobotOwner="Sayaka Yumi"] {
+	background-color: Brown;
+	color: white;
+}
+
+input[type="email"]:valid {
+	background-color: green;
+}
+
+input[type="email"]:focus:invalid {
+	background-color: red;
+}
+.toggle:checked ~ .checked{
+	background-color: olive;
+}
+.checked{
+	width: 100px;
+	height: 100px;
+	background-color: peru;
+}
